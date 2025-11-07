@@ -49,9 +49,14 @@ Para ejecutar el proyecto en tu entorno local o en Google Colab:
 2. Ventas por Categoría: Revela los productos más populares. Todas las tiendas comparten las mismas tres categorías principales, indicando que la baja rentabilidad de la Tienda 4 no es un problema de surtido.
 
 3. Valoración Media por Tienda: Evalúa la satisfacción del cliente (CSAT). La Tienda 1 tiene la peor calificación promedio, señalando problemas subyacentes de calidad o servicio a pesar de sus altos ingresos.
-     <img width="886" height="536" alt="image" src="https://github.com/user-attachments/assets/5bafcf38-13d0-450d-a8e3-40f26983a3c5" />
 
-4. Costo de Envío Promedio: Analiza la eficiencia logística y costos. La Tienda 1 tiene el costo de envío más alto, mientras que la Tienda 4 es la más eficiente y económica.
-       <img width="886" height="535" alt="image" src="https://github.com/user-attachments/assets/88a14103-12c9-4c19-8b8f-6f3082f7f556" />
 
-5. Productos Más/Menos Vendidos: Identifica el movimiento de inventario. El volumen de ventas de productos es similar entre todas las tiendas, lo que sugiere que el problema es de valor o ejecución de ventas, no de volumen bruto de unidades.
+ <img width="886" height="526" alt="image" src="https://github.com/user-attachments/assets/9de8a822-ea67-4d3b-b770-1f3f479fbaa3" />
+
+5. Costo de Envío Promedio: Analiza la eficiencia logística y costos. La Tienda 1 tiene el costo de envío más alto, mientras que la Tienda 4 es la más eficiente y económica.
+
+
+  <img width="875" height="535" alt="image" src="https://github.com/user-attachments/assets/2a17a05a-4011-4049-ae05-07026d7f21ab" />
+
+
+7. Productos Más/Menos Vendidos: Identifica el movimiento de inventario. El volumen de ventas de productos es similar entre todas las tiendas, lo que sugiere que el problema es de valor o ejecución de ventas, no de volumen bruto de unidades.
