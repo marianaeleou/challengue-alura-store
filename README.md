@@ -84,8 +84,8 @@ El análisis geográfico refuerza la decisión de vender la Tienda 4. Su bajo in
 **Al vender la Tienda 4, el Sr. Juan no perderá acceso a ningún mercado geográfico vital que no esté ya cubierto por las otras tres tiendas.**
   <img width="886" height="694" alt="image" src="https://github.com/user-attachments/assets/20a56282-d192-4303-b88b-154cbf047fb6" />
 
-<h2>Si desea evaluar el analisis a detalle indicador por indicar y la relacion entre las tiendas versus los 5 indicadores evaluados, le invitamos a descargar el informe detallado, dentro del proyecto analisis_alura_store_mariana_pilco_v1.ipynb</h2>
-
+**Análisis a Profundidad:**
+Para ver el análisis detallado, la comparación de indicadores entre tiendas y la justificación de la recomendación, acceda al Notebook principal: [Descargar Notebook de Análisis](analisis_alura_store_mariana_pilco_v1.ipynb).
 
 <h2>Conclusión y Justificación (Ver Notebook)</h2>
 El análisis integral reveló que la Tienda 4 es la unidad con el menor ingreso total, convirtiéndola en la principal candidata a la venta. Aunque la Tienda 1 presenta un riesgo operativo significativo (la peor calificación de cliente y el envío más caro), la recomendación se inclina por liquidar la Tienda 4 al ser la unidad menos rentable y no poseer una ventaja geográfica única sobre las otras tres.
