@@ -53,10 +53,54 @@ Para ejecutar el proyecto en tu entorno local o en Google Colab:
 
  <img width="886" height="526" alt="image" src="https://github.com/user-attachments/assets/9de8a822-ea67-4d3b-b770-1f3f479fbaa3" />
 
-5. Costo de Envío Promedio: Analiza la eficiencia logística y costos. La Tienda 1 tiene el costo de envío más alto, mientras que la Tienda 4 es la más eficiente y económica.
+4. Costo de Envío Promedio: Analiza la eficiencia logística y costos. La Tienda 1 tiene el costo de envío más alto, mientras que la Tienda 4 es la más eficiente y económica.
 
 
   <img width="875" height="535" alt="image" src="https://github.com/user-attachments/assets/2a17a05a-4011-4049-ae05-07026d7f21ab" />
 
 
-7. Productos Más/Menos Vendidos: Identifica el movimiento de inventario. El volumen de ventas de productos es similar entre todas las tiendas, lo que sugiere que el problema es de valor o ejecución de ventas, no de volumen bruto de unidades.
+5. Productos Más/Menos Vendidos: Identifica el movimiento de inventario. El volumen de ventas de productos es similar entre todas las tiendas, lo que sugiere que el problema es de valor o ejecución de ventas, no de volumen bruto de unidades.
+
+<h2>Análisis del Desempeño Geográfico (EXTRA)</h2>
+
+Densidad de ventas mediante coordenadas (lat y lon).
+## INTERPRETACION: Análisis del Desempeño Geográfico
+Al generar un gráfico de dispersión de la latitud (`lat`) y la longitud (`lon`), se observa una **clara concentración de ventas en áreas específicas**, probablemente correspondientes a las principales ciudades.
+
+**Insight Clave:** La mayoría de las ventas se agrupan en **2 o 3 grandes cúmulos de puntos**. Si coloreamos los puntos por la `Calificación`, se puede observar si una región concentra más puntos de baja calificación (colores más oscuros), lo que podría indicar un problema regional en lugar de un problema de tienda. Este gráfico sirve para identificar los **mercados de alta densidad** y asegurar que el nuevo emprendimiento del Sr. Juan no compita directamente con una región ya saturada.
+   <img width="640" height="546" alt="image" src="https://github.com/user-attachments/assets/18560462-bcf5-46f1-95ce-4b0ad891f63a" />
+
+**INTERPRETACION EXTRA**
+Utilizando el mapa interactivo generado con la librería Folium, logramos visualizar la distribución espacial de las ventas, complementando la decisión de venta.
+
+**Hallazgos Geográficos Clave**
+Concentración de Mercado: El mapa confirma que las ventas de Alura Store están fuertemente concentradas en los principales centros urbanos de Colombia (clústeres en Bogotá, Medellín, Cali). Esto indica que el éxito de las tiendas está ligado a la densidad poblacional.
+
+**Rendimiento de la Tienda 4:** Al analizar la distribución de la Tienda 4 (identificada en el mapa), se observa que esta unidad opera en los mismos mercados clave de alta densidad que las tiendas más rentables (tienda_1, tienda_2, tienda_3).
+
+**Implicación para la Venta**
+El análisis geográfico refuerza la decisión de vender la Tienda 4. Su bajo ingreso (Análisis 1) no se debe a su ubicación, sino a factores internos (precio, ejecución, etc.), ya que comparte los mismos mercados que las unidades más exitosas.
+
+**Al vender la Tienda 4, el Sr. Juan no perderá acceso a ningún mercado geográfico vital que no esté ya cubierto por las otras tres tiendas.**
+  <img width="886" height="694" alt="image" src="https://github.com/user-attachments/assets/20a56282-d192-4303-b88b-154cbf047fb6" />
+
+<h2>Si desea evaluar el analisis a detalle indicador por indicar y la relacion entre las tiendas versus los 5 indicadores evaluados, le invitamos a descargar el informe detallado, dentro del proyecto analisis_alura_store_mariana_pilco_v1.ipynb</h2>
+
+
+<h2>Conclusión y Justificación (Ver Notebook)</h2>
+El análisis integral reveló que la Tienda 4 es la unidad con el menor ingreso total, convirtiéndola en la principal candidata a la venta. Aunque la Tienda 1 presenta un riesgo operativo significativo (la peor calificación de cliente y el envío más caro), la recomendación se inclina por liquidar la Tienda 4 al ser la unidad menos rentable y no poseer una ventaja geográfica única sobre las otras tres.
+
+<h2>Notas y Solución de Problemas</h2>
+
+•	Archivos no encontrados (FileNotFoundError): Asegúrate de que los cuatro CSV estén en el mismo directorio que el notebook o que los hayas subido correctamente a Google Colab.
+•	Problemas con Folium: Si el mapa interactivo no se renderiza, verifica que folium esté instalado correctamente y que estés ejecutando en un entorno compatible.
+
+<h2>Contribuciones y Contacto</h2>
+
+Si deseas contribuir con mejoras al análisis o agregar nuevas visualizaciones, siéntete libre de hacer un fork del repositorio y enviar un pull request.
+Autora: Mariana E .Pilco
+Proyecto desarrollado para el challenge de Ciencia de Datos - Alura Latam - OracleONE G9
+
+
+
+   
