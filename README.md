@@ -30,7 +30,7 @@ Para ejecutar el proyecto en tu entorno local o en Google Colab:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/angelesGladin/challenge-data-science.git
+   git clone https://github.com/marianaeleou/challengue-alura-store.git
 2. **Instalar las dependencias necesarias:**
    ```bash
    pip install pandas matplotlib seaborn folium
