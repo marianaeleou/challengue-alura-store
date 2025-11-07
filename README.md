@@ -24,4 +24,12 @@ Empleados para la **visualización descriptiva de datos**, generando **gráficos
 **• Folium:**  
 Implementado para el **análisis geoespacial complementario**, mostrando un **mapa interactivo** que visualiza la **densidad de ventas por latitud y longitud**.
 <h2>Instalación y Ejecución</h2>
+Para ejecutar el proyecto en tu entorno local o en Google Colab:
 
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/angelesGladin/challenge-data-science.git
+2. **Instalar las dependencias necesarias:**
+   ```bash
+   pip install pandas matplotlib seaborn folium
+   
