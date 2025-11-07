@@ -24,6 +24,8 @@ Empleados para la **visualización descriptiva de datos**, generando **gráficos
 **• Folium:**  
 Implementado para el **análisis geoespacial complementario**, mostrando un **mapa interactivo** que visualiza la **densidad de ventas por latitud y longitud**.
 <h2>Instalación y Ejecución</h2>
+
+## Guía de Instalación
 Para ejecutar el proyecto en tu entorno local o en Google Colab:
 
 1. **Clonar el repositorio:**
@@ -32,4 +34,22 @@ Para ejecutar el proyecto en tu entorno local o en Google Colab:
 2. **Instalar las dependencias necesarias:**
    ```bash
    pip install pandas matplotlib seaborn folium
+## Guía de Ejecución
+1.	Abre el archivo AluraStoreLatam.ipynb en Google Colab o Jupyter Notebook.
+2.	Asegúrate de subir los cuatro archivos CSV (contenidos en el directorio base-de-datos-challenge1-latam) a tu entorno de Colab/Jupyter para que el código de carga funcione.
+3.	Ejecuta todas las celdas de forma secuencial (Run All o Shift + Enter) para replicar el análisis completo.
    
+<h2>Métricas Clave Analizadas</h2>
+
+1. Ingreso Total por Tienda: Mide la rentabilidad financiera directa. El hallazgo principal es que la Tienda 4 registra consistentemente los ingresos más bajos, lo que la convierte en la principal candidata a la venta por criterios financieros.
+   
+   <img width="886" height="508" alt="image" src="https://github.com/user-attachments/assets/a8dd07d0-b7d3-4ff7-892c-15dc5dbd1607" />
+
+
+3. Ventas por Categoría: Revela los productos más populares. Todas las tiendas comparten las mismas tres categorías principales, indicando que la baja rentabilidad de la Tienda 4 no es un problema de surtido.
+
+4. Valoración Media por Tienda: Evalúa la satisfacción del cliente (CSAT). La Tienda 1 tiene la peor calificación promedio, señalando problemas subyacentes de calidad o servicio a pesar de sus altos ingresos.
+
+5. Costo de Envío Promedio: Analiza la eficiencia logística y costos. La Tienda 1 tiene el costo de envío más alto, mientras que la Tienda 4 es la más eficiente y económica.
+
+6. Productos Más/Menos Vendidos: Identifica el movimiento de inventario. El volumen de ventas de productos es similar entre todas las tiendas, lo que sugiere que el problema es de valor o ejecución de ventas, no de volumen bruto de unidades.
